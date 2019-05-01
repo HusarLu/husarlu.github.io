@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: #339999;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 844px auto 100px;
+    background-size: contain;
+    row-gap: 50px;
+}
+.nawigacja{
+    background-color: #000033;
+    grid-row: 1/span 3;
+    border-right: 3px solid white;
+}
+    .nawigacja__logo{
+        color: white;
+        text-decoration: none;
+        width: 40px;
+        height: 30px;
+        font-size: 28px;
+        text-align: center;
+        position: fixed;
+        padding: 3px;
+        overflow: hidden;
+    }
+   
+    .nawigacja__logo:first-child{
+        top: 20px;
+    }
+    .nawigacja__logo:nth-last-child(2){
+        top: 60px;
+    }
+    .nawigacja__logo:nth-last-child(3){
+        top: 100px;
+    }
+    .nawigacja__logo:last-child{
+        bottom: 20px;
+    }
+    .nawigacja__logo:hover{
+        animation: animacja_menu 3s forwards;
+    }
+.logo{
+    color: white;
+    font-size: 80px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url("tlo.jpg");
+    border-bottom: 5px solid #000033;
+}
+    .logo__profilowe{
+        border-radius: 100%;
+        width: 600px;
+    }
+.tresc{
+    background-color: #000033;
+    border-radius: 0 150px 0 0;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 65px;
+    margin-right: 50px;
+    color: white;
+}
+.stopka{
+    border-top: 5px solid #000033;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+}
+
+
+
+@keyframes animacja_menu{
+   0%{  
+        background-color: #000033;
+        border-right: 2px solid white;
+        color: white;
+        width: 40px;
+        transition-duration: 2s;}
+    100%{
+        background-color: white;
+        border-right: 2px solid #000033;
+        color: #000033;;
+        width: 250px;
+        content: "•";
+    }
+}
