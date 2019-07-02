@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+    color: #03899E;
+}
+nav{
+    background-color: #03899E;
+    border-right: 10px solid white;
+    display: grid;
+    align-content: start;
+    justify-items: center;
+    text-align: center;
+}
+main{
+    background-color: #03899E;
+}
+.logo{
+    width: 80%;
+}
+.menu{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu:hover{
+    background-color: white;
+    color: #03899E;
+    transition-duration: 2s;
+}
+.herka{
+    width: 100%;
+    border-top: 0;
+}
+.stworz{
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+}
+.tytul{
+    font-size: 30px;
+    border: 0;
+    grid-column: 1/5;
+    text-align: center;
+    text-decoration: none;
+    color: #03899E;
+}
+.osoba{
+    border: 3px solid #03899E;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.player{
+    width: 100%;
+}
+.podpis{
+    font-size: 30px;
+    text-align: center;
+}
+

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+}
+nav{
+    background-color: #03899E;
+    border-right: 10px solid white;
+    text-align: center;
+}
+main{
+    background-color: #03899E;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+}
+article{
+    display: grid;
+    height: 55%;
+    align-content: center;
+}
+.logo{
+    width: 85%;
+}
+.wybor{
+    background-color: #03899E;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: 65%; 
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.wybor:hover{
+    cursor: pointer;
+}
+.przy{
+    background-color: #03899E;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+    width: 65%; 
+    border: 0;
+}
+.przy:hover{
+    cursor: pointer;
+}
+.cofnij{
+    background-color: #03899E;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 65%; 
+    border: 0;
+}
+.cofnij:hover{
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+.zaloguj{
+    display: none;
+}
+::-webkit-input-placeholder { color:white; }
+.zarejestruj{
+    display: none;
+}
+h1{
+    color: white;
+}
+.saitama{
+    width: 500px;
+    text-align: center;
+}

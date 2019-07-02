@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+    color: #03899E;
+}
+nav{
+    background-color: #03899E;
+    border-right: 10px solid white;
+    display: grid;
+    align-content: start;
+    justify-items: center;
+    text-align: center;
+}
+main{
+    background-color: #03899E;
+}
+.logo{
+    width: 80%;
+}
+.menu{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu:hover{
+    background-color: white;
+    color: #03899E;
+    transition-duration: 2s;
+}
+.herka{
+    width: 100%;
+    border-top: 0;
+}
+.stworz{
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 30% 25% 20%;
+    text-align: center;
+}
+.tytul{
+    font-size: 40px;
+    text-align: center;
+    grid-column: 1 / span 4;
+    border-bottom: 4px solid #03899E;
+}
+.polegry{
+    grid-column: 1 / span 3;
+}
+.gracze{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.osoba{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 4px solid #03899E;
+    margin: 5px;
+}
+.dane{
+    font-size: 35px;
+    display: grid;
+    align-content: center;
+}
+.tytul{
+    text-align: center;
+    grid-column: 1/span 4;
+    text-decoration: none;
+    color: #03899E;
+}
+
+
