@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop><channel name="stable" available="1"><branch name="8.0" available="1"><name>8.0.4</name><num>8.0.4</num><download><link>https://assets.prestashop3.com/dst/edition/corporate/8.0.4/prestashop_edition_basic_version_8.0.4.zip</link></download></branch><branch name="8.1" available="1"><name>8.1.5</name><num>8.1.5</num><download><link>https://assets.prestashop3.com/dst/edition/corporate/8.1.5/prestashop_edition_basic_version_8.1.5.zip</link></download></branch></channel></prestashop>
